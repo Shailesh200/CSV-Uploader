@@ -3,9 +3,6 @@ import axios from 'axios';
 const BASE_URL = `http://localhost:4000/csv`
 
 export async function saveCSV(data) {
-
-  console.log(data)
-
   return await axios.post(`${BASE_URL}/save`, data)
     .then(res => res.data)
     .catch((error) => {

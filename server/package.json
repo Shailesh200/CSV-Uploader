@@ -4,9 +4,10 @@
   "description": "Backend Application for CSV Uploader",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "npx nodemon server.js"
   },
-  "author": "Digamber Rawat",
+  "author": "Shailesh Jha",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",

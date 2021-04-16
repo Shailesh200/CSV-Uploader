@@ -33,7 +33,7 @@ router.route('/').get((req, res, next) => {
 
 // Delete CSV
 router.route('/delete/:id').delete((req, res, next) => {
-  if (!ObjectID.isValid(id)) {
+  if (!ObjectID.isValid(req.params.id)) {
     return res.status(404).send();
   }
 

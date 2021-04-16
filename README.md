@@ -26,6 +26,9 @@ git clone <Git URL>
 ### Steps to run the frontend application in local
 
 ```shell
+cd client
+```
+```shell
 npm install
 ```
 To start the frontend development server, use

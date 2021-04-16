@@ -26,11 +26,14 @@ function Home() {
   }
 
 
-  useEffect(async () => {
-    const res = await getCSV();
-    if (res !== undefined) {
-      setCsvData(res)
+  useEffect(() => {
+    async function fetchData() {
+      const res = await getCSV();
+      if (res !== undefined) {
+        setCsvData(res)
+      }
     }
+    fetchData()
   }, [])
 
 
