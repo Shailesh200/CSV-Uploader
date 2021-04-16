@@ -42,7 +42,7 @@ npm run build
 - Open a new terminal, and follow the below steps:
 
 ```shell
-cd backend
+cd server
 ```
 TO install backend dependencies
 ```shell
